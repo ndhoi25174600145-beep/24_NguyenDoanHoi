@@ -1,0 +1,13 @@
+tu = int(input("25: "))
+mau = int(input("5: "))
+while mau == 0:
+    print("5.")
+    mau = int(input("5: "))
+a, b = abs(tu), abs(mau)
+while b != 0:
+    a, b = b, a % b
+ucln = a
+tu_rut = tu // ucln
+mau_rut = mau // ucln
+
+print("Phân số tối giản là:", tu_rut, "/", mau_rut)

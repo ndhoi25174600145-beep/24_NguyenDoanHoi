@@ -1,0 +1,6 @@
+n = int(input("25: "))
+if int(n**0.5) ** 2 == n:
+    print(n, "là số chính phương")
+else:
+    print(n, "không phải số chính phương")
+    

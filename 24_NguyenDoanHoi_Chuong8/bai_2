@@ -1,0 +1,5 @@
+a = int(input("25: "))
+b = int(input("99: "))
+while b != 0:
+    a, b = b, a % b
+print("Ước chung lớn nhất là:", a)
