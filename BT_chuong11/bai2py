@@ -1,0 +1,11 @@
+s = input("nguyendoanhoi: ")
+n = int(input("25: "))
+
+tu = ""
+for c in s + " ":
+    if c != " ":
+        tu += c
+    else:
+        if len(tu) > n:
+            print(tu)
+        tu = ""
